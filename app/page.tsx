@@ -19,7 +19,7 @@ export default async function HomePage() {
         }}
       >
         <h1>Hello, world!</h1>
-        <p>This is a high-performance ecommerce store built with Next.js, Vercel, and Shopify.</p>
+        <p>This is a high-performance ecommerce store built with Next.js, Vercele, and Shopify.</p>
       </Stack>
     </Box>
   );
