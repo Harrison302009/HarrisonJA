@@ -1,6 +1,4 @@
-import { Carousel } from 'components/carousel';
-import { ThreeItemGrid } from 'components/grid/three-items';
-import Footer from 'components/layout/footer';
+import { Box, Stack } from '@mui/material';
 
 export const metadata = {
   description: 'High-performance ecommerce store built with Next.js, Vercel, and Shopify.',
@@ -11,10 +9,18 @@ export const metadata = {
 
 export default async function HomePage() {
   return (
-    <>
-      <ThreeItemGrid />
-      <Carousel />
-      <Footer />
-    </>
+    <Box>
+      <Stack
+        style={{
+          backgroundImage: "url('/main.jpg')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          height: '100vh'
+        }}
+      >
+        <h1>Hello, world!</h1>
+        <p>This is a high-performance ecommerce store built with Next.js, Vercel, and Shopify.</p>
+      </Stack>
+    </Box>
   );
 }
