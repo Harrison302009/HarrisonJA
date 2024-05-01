@@ -5,5 +5,17 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 tasks:
-  - init: pnpm install && pnpm run build
-    command: pnpm run start
+  - name: set-permissions
+    init: |
+      chmod -R 777 /workspace/data
+    command: echo "Permissions set for /workspace/data"
+  - name: docker-compose
+    init: docker-compose create
+    command: docker-compose up -d
+  - name: npm install
+    init: npm install
+    command: export NEXTAUTH_URL="https://3000-${GITPOD_WORKSPACE_ID}.${GITPOD_WORKSPACE_CLUSTER_HOST}/" && npm run dev
+ports:
+  - name: login
+    port: 1025
+    protocol: https
