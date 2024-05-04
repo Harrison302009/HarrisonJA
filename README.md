@@ -8,8 +8,16 @@ A Website about the co-founder of CrownAI and creator of AICulture.
 
 > To get started, run:
 
-1. npm run dev
+npm run dev
 
 # or
 
-1. yarn dev
+yarn dev
+
+# or
+
+pnpm dev
+
+# or
+
+bun dev
