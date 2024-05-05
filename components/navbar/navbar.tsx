@@ -1,7 +1,13 @@
 import { Stack } from '@mui/material';
 import '../../app/globalicons.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import {
+  faDiscord,
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter
+} from '@fortawesome/free-brands-svg-icons';
 
 export function NavBar() {
   return (
@@ -28,8 +34,12 @@ export function NavBar() {
           <FontAwesomeIcon icon={faFacebook} id="fb" />
           <FontAwesomeIcon icon={faLinkedin} id="ld" />
           <FontAwesomeIcon icon={faTwitter} id="tweet" />
+          <FontAwesomeIcon icon={faDiscord} id="discord" />
         </div>
       </nav>
+      <div id="grayHidden">
+        <div id="outputShown">Join our server</div>
+      </div>
     </Stack>
   );
 }

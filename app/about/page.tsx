@@ -1,7 +1,7 @@
 'use client';
 import { Box, Stack } from '@mui/material';
 import { NavBar } from 'components/navbar/navbar';
-import Image from 'next/image';
+import '../globalicons.css';
 
 export default function HomePage() {
   return (
@@ -22,23 +22,16 @@ export default function HomePage() {
                 id="text"
                 style={{
                   backgroundColor: 'rgba(255, 255, 255, 0.2)',
-                  width: '50%',
-                  height: '100%'
+                  width: '100%',
+                  height: '100%',
+                  display: 'flex',
+                  position: 'relative',
+                  alignItems: 'center',
+                  justifyContent: 'center'
                 }}
               >
-                <h1>I&apos;m a full stack developer</h1>
-              </Stack>
-              <Stack
-                id="image"
-                style={{ backgroundColor: 'transparent', width: '50%', height: '100vh' }}
-              >
-                <Image
-                  id="profile"
-                  alt="profile"
-                  src={'/rem.png'}
-                  height={1000}
-                  width={1000}
-                ></Image>
+                <h1 id="titleAbout">Harrison John-Anozie</h1>
+                <h3 id="contentAbout">Hi I&apos;m a full stack developer</h3>
               </Stack>
             </Stack>
           </Stack>
