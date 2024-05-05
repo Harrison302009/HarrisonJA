@@ -10,7 +10,7 @@ export default function HomePage() {
         <Box>
           <Stack
             style={{
-              backgroundImage: "url('/about-wall.jpg')",
+              backgroundImage: "url('/collage.png')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               height: '100vh'
@@ -21,9 +21,9 @@ export default function HomePage() {
               <Stack
                 id="text"
                 style={{
-                  backgroundColor: 'rgba(255, 255, 255, 0.5)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.2)',
                   width: '50%',
-                  height: '100vh'
+                  height: '100%'
                 }}
               >
                 <h1>I&apos;m a full stack developer</h1>
