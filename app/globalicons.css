@@ -138,3 +138,30 @@
   height: 100%;
   background-color: rgba(24, 24, 24, 0.315);
 }
+
+#profile {
+  display: flex;
+  position: relative;
+  animation: telex 2s;
+}
+
+#text {
+  animation: telout 2s;
+}
+@keyframes telex {
+  from {
+    bottom: -100px;
+  }
+  to {
+    bottom: 0;
+  }
+}
+
+@keyframes telout {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 0;
+  }
+}
