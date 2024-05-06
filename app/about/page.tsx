@@ -11,7 +11,7 @@ export default function HomePage() {
         <Box>
           <Stack
             style={{
-              backgroundImage: "url('/about-wall.jpg')",
+              backgroundImage: "url('/white.jpg')",
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               height: '100vh',
@@ -23,7 +23,7 @@ export default function HomePage() {
               <Stack
                 id="text"
                 style={{
-                  backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                  backgroundColor: 'rgba(255, 255, 255, 0.6)',
                   width: '50%',
                   height: '100%',
                   display: 'flex',
