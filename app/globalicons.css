@@ -27,7 +27,7 @@
 }
 
 #ig:hover {
-  color: #f44336;
+  color: purple;
   transition: 0.5s ease-in-out;
 }
 
@@ -39,7 +39,7 @@
 }
 
 #fb:hover {
-  color: #f44336;
+  color: rgb(65, 65, 231);
   transition: 0.5s ease-in-out;
 }
 
@@ -51,7 +51,7 @@
 }
 
 #ld:hover {
-  color: #f44336;
+  color: rgba(0, 0, 255, 0.671);
   transition: 0.5s ease-in-out;
 }
 
@@ -75,7 +75,7 @@
 }
 
 #discord:hover {
-  color: #f44336;
+  color: rgba(77, 77, 201, 0.671);
   transition: 0.5s ease-in-out;
 }
 

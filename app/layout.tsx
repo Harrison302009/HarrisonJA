@@ -6,7 +6,8 @@ export const metadata: Metadata = {
     template: '%s',
     default: 'Harrison John-Anozie'
   },
-  description: 'A website about the co-founder of CrownAI and creator of AICulture'
+  description:
+    'A website about Harrison John-Anozie (the owner of CrownAI, Sypher Globe, and creator of AICulture)'
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

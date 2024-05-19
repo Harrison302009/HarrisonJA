@@ -6,7 +6,7 @@ import {
   faFacebook,
   faInstagram,
   faLinkedin,
-  faTwitter
+  faXTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import { faX } from '@fortawesome/free-solid-svg-icons';
 
@@ -50,7 +50,7 @@ export function NavBar() {
           <FontAwesomeIcon icon={faInstagram} id="ig" />
           <FontAwesomeIcon icon={faFacebook} id="fb" />
           <FontAwesomeIcon icon={faLinkedin} id="ld" onClick={linkProfile} />
-          <FontAwesomeIcon icon={faTwitter} id="tweet" />
+          <FontAwesomeIcon icon={faXTwitter} id="tweet" />
           <FontAwesomeIcon icon={faDiscord} onClick={discordServer} id="discord" />
         </div>
       </nav>
