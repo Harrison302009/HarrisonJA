@@ -44,8 +44,8 @@ export default function AboutMe() {
                   <h2>Introduction</h2>
                   <Stack id="introduction">
                     <p id="firstParagraph">
-                      My name is Harrison John. I was born in Lome, Togo on Thursday 30th April into
-                      an upper-middle class family as the 2nd son of 4 children.
+                      My name is Harrison John-Anozie. I was born in Lome, Togo on Thursday 30th
+                      April into an upper-middle class family as the 2nd son of 4 children.
                     </p>
                     <p>
                       Since I was about 8 years old, I never really had a friend. My friends then

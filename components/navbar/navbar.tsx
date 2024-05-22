@@ -1,4 +1,4 @@
-import { Stack } from '@mui/material';
+import { Button, Stack } from '@mui/material';
 import '../../app/globalicons.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
@@ -9,6 +9,7 @@ import {
   faXTwitter
 } from '@fortawesome/free-brands-svg-icons';
 import { faX } from '@fortawesome/free-solid-svg-icons';
+import Link from 'next/link';
 
 export function NavBar() {
   const discordServer = () => {
@@ -18,7 +19,7 @@ export function NavBar() {
   const notInterested = () => {
     var displayUnit = document.getElementById('outputShown') as HTMLDivElement;
     var shine = document.getElementById('grayHidden') as HTMLDivElement;
-    displayUnit.style.animation = 'alix 1s';
+    displayUnit.style.animation = 'alix 0.6s linear';
     setTimeout(() => {
       shine.style.display = 'none';
       displayUnit.style.animation = 'dis 1s';
@@ -60,7 +61,12 @@ export function NavBar() {
           <br />
           <div id="inmates">
             <FontAwesomeIcon icon={faDiscord} id="bigDiscord" />
-            <h2 id="joinTi">Join our server</h2>
+            <h2 id="joinTi">Join our server and explore the community</h2>
+            <Link href={'https://discord.gg/Bq4VEV3G'} target="_blank">
+              <Button variant="contained" id="acceptedInvite">
+                JOIN NOW!
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
