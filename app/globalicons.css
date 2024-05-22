@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Pangolin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 #nav {
   display: flex;
@@ -129,6 +130,30 @@
   font-style: normal;
 }
 
+#contentQuote {
+  font-size: 'Exo 2', sans-serif;
+  font-style: italic;
+}
+
+.autobiography {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 0;
+}
+
+#introduction {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+#firstParagraph {
+  font-family: 'Roboto Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 #grayHidden {
   display: none;
   position: absolute;
@@ -208,6 +233,22 @@
 
 #text {
   animation: telout 2s;
+}
+
+#text::-webkit-scrollbar {
+  background-color: rgb(81, 118, 221);
+}
+#text::-webkit-scrollbar-corner {
+  background-color: saddlebrown;
+}
+#text::-webkit-scrollbar-thumb {
+  background-color: #b84ceb;
+}
+
+::selection {
+  background-color: #000000;
+  color: #fff;
+  font-family: 'Roboto Mono', monospace;
 }
 @keyframes telex {
   from {
