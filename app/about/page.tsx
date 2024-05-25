@@ -28,30 +28,32 @@ export default function AboutMe() {
                   height: '100%',
                   display: 'flex',
                   position: 'relative',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  overflowY: 'scroll'
+                  overflow: 'scroll'
                 }}
               >
                 <h1 id="titleAbout">Harrison John-Anozie</h1>
-                <h3 id="contentAbout">Cerfified full stack developer</h3>
+                <h3 id="contentAbout">Teenage Trailblazer: From Zero to Full Stack Hero</h3>
                 <q id="contentQuote">
                   There&apos;s always a reason behind people&apos;s actions but that doesn&apos;t
                   give us a reason to fail
                 </q>
                 <br />
                 <Stack className="autobiography">
-                  <h2>Introduction</h2>
+                  <h2>Background</h2>
                   <Stack id="introduction">
                     <p id="firstParagraph">
                       My name is Harrison John-Anozie. I was born in Lome, Togo on Thursday 30th
-                      April into an upper-middle class family as the 2nd son of 4 children.
+                      April into an upper-middle class family as the 2nd son of 4 children. Life was
+                      simple, the people around me were friendly and there was always someone to
+                      play with - that is, when I was awake.
                     </p>
                     <p>
-                      Since I was about 8 years old, I never really had a friend. My friends then
-                      were my books and because of that, people used to make fun of me a lot. It
-                      took a while but I got used to the taunts, but my major problem was that I
-                      never had a friend who was actually a human being
+                      As a child, I marveled at the world. I always had one question or the other.
+                      The people I asked answered me in the beginning but, of course, it got
+                      annoying. So, instead of answering me directly, they&apos;d give me a book and
+                      tell me to read it and find my answer or they&apos;d tell me to research about
+                      it. At 5 years, I didn&apos;t understand the meaning of the word
+                      &quot;research&quot; so I&apos;d just carry the book and read it
                     </p>
                   </Stack>
                 </Stack>

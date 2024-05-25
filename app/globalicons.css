@@ -118,12 +118,20 @@
 }
 
 #titleAbout {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   font-family: 'Courgette', cursive;
   font-weight: 400;
   font-style: normal;
 }
 
 #contentAbout {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
   font-family: 'Exo 2', sans-serif;
   font-optical-sizing: auto;
   font-weight: normal;
@@ -235,9 +243,6 @@
   animation: telout 2s;
 }
 
-#text::-webkit-scrollbar {
-  background-color: rgb(81, 118, 221);
-}
 #text::-webkit-scrollbar-corner {
   background-color: saddlebrown;
 }
