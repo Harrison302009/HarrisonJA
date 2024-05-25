@@ -243,11 +243,16 @@
   animation: telout 2s;
 }
 
+#text::-webkit-scrollbar {
+  width: 13px;
+  background-color: #b84ceb;
+}
+
 #text::-webkit-scrollbar-corner {
   background-color: saddlebrown;
 }
 #text::-webkit-scrollbar-thumb {
-  background-color: #b84ceb;
+  background-color: #839de4;
 }
 
 ::selection {
