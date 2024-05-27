@@ -33,7 +33,7 @@ export default function AboutMe() {
                 }}
               >
                 <h1 id="titleAbout">Harrison John-Anozie</h1>
-                <h3 id="contentAbout">Teenage Trailblazer: From Zero to Full Stack Hero</h3>
+                <h3 id="contentAbout">Teenage Trailblazer: Full-Stack Development Edition</h3>
                 <q id="contentQuote">
                   There&apos;s always a reason behind people&apos;s actions but that doesn&apos;t
                   give us a reason to fail
