@@ -16,6 +16,7 @@ export default function HomePage() {
             }}
           >
             <NavBar />
+            <video src="/Cut.mp4" id="backVid" autoPlay muted></video>
           </Stack>
         </Box>
       </div>

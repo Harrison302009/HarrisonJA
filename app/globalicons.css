@@ -10,6 +10,7 @@
   flex-direction: row;
   gap: 15px;
   background-color: rgba(128, 128, 128, 0.486);
+  z-index: 10;
 }
 
 #icons {
@@ -18,10 +19,11 @@
   flex-direction: row;
   gap: 10px;
   right: 30px;
+  z-index: 11;
 }
 
 #ig {
-  color: rgb(32, 31, 31);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
@@ -33,10 +35,11 @@
 }
 
 #fb {
-  color: rgb(32, 31, 31);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
+  z-index: 12;
 }
 
 #fb:hover {
@@ -45,10 +48,11 @@
 }
 
 #ld {
-  color: rgb(32, 31, 31);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
+  z-index: 12;
 }
 
 #ld:hover {
@@ -57,10 +61,11 @@
 }
 
 #tweet {
-  color: rgb(32, 31, 31);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
+  z-index: 12;
 }
 
 #tweet:hover {
@@ -69,10 +74,11 @@
 }
 
 #discord {
-  color: rgb(32, 31, 31);
+  color: rgb(0, 0, 0);
   font-size: 20px;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
+  z-index: 12;
 }
 
 #discord:hover {
@@ -94,7 +100,7 @@
 }
 
 .nav-links ul li a {
-  color: #000000;
+  color: #fcfcfc;
   text-decoration: none;
   font-size: 15px;
   cursor: pointer;
@@ -259,6 +265,14 @@
   background-color: #000000;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
+}
+
+#backVid {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
 @keyframes telex {
   from {
