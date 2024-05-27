@@ -43,12 +43,11 @@ export default function AboutMe() {
                   <h2>Early Life</h2>
                   <Stack id="introduction">
                     <p id="firstParagraph">
-                      My name is Harrison John-Anozie. I was born in Lome, Togo on Thursday 30th
-                      April into an upper-middle class family as the 2nd son of 4 children. Life was
-                      simple, the people around me were friendly and there was always someone to
-                      play with - that is, when I was awake. It wasn&apos;t till we moved to Nigeria
-                      that I truly experienced the cruelness and harshness of human beings in this
-                      world
+                      I was born in Lome, Togo on Thursday 30th April into an upper-middle class
+                      family as the 2nd son of 4 children. Life was simple, the people around me
+                      were friendly and there was always someone to play with - that is, when I was
+                      awake. It wasn&apos;t till we moved to Nigeria that I truly experienced the
+                      cruelness and harshness of human beings in this world
                     </p>
                     <p>
                       As a child, I marveled at the universe. It was a vast canvas, painted with
