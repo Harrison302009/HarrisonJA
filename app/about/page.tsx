@@ -130,48 +130,6 @@ export default function AboutMe() {
                       <sup>st</sup> grade.
                     </p>
                     <br />
-                    <p>
-                      At five years old, the concept of “research” eluded me, but I clutched those
-                      little volumes like treasures. Cross-legged on the floor, I flipped through
-                      pages, absorbing knowledge as if it were sunlight filtering through leaves.
-                      The scent of paper and ink became my sanctuary, and the words ignited a spark
-                      within me—an ember that would blaze into a lifelong love affair with books.
-                    </p>
-                    <br />
-                    <p>
-                      Yet, this passion set me apart. While some admired my insatiable curiosity,
-                      others couldn&apos;t fathom it. I became an outsider—a bookworm in a world
-                      that favored more conventional pursuits. During school recess, while my peers
-                      kicked soccer balls or played tag, I nestled under a tree, engrossed in thick
-                      novels. Sunlight danced on the pages, casting dappled patterns. Their glances
-                      spoke volumes: “What&apos;s wrong with him? Doesn&apos;t he know how to have
-                      fun?”
-                    </p>
-                    <br />
-                    <p>
-                      As I grew older, the teasing intensified. They&apos;d mimic my serious
-                      expression, pretending to read invisible books. “Hey, Harrison,” theyd jeer,
-                      “what&apos;s the square root of 144?” I&apos;d answer, and their laughter
-                      echoed like a chorus of mockingbirds.
-                    </p>
-                    <br />
-                    <p>
-                      While my peers chatted about movies and pop songs, I lost myself in the
-                      written word. But their whispers reached me: “He&apos;ll never fit in.” Hurt,
-                      I tried to bridge the gap. I joined their conversations, attempting to blend
-                      in. Yet, when they asked about slangs or politicians, my mind drew blanks.
-                      “Michael Crowder just published a book,” one would say, and the others would
-                      laugh. I stood there, disappointed, hearing that voice in my head: “Stick to
-                      what you&apos;re good at.”
-                    </p>
-                    <br />
-                    <p>
-                      And so, I navigated the uncharted path—the one where books were my companions
-                      and bullies my adversaries. I learned that being different wasn&apos;t a flaw;
-                      it was my superpower. The library became my refuge, and the characters within
-                      its shelves whispered encouragement. They taught me resilience, empathy, and
-                      the art of standing tall even when the world tried to shrink me.
-                    </p>
                   </Stack>
                 </Stack>
               </Stack>
