@@ -1,9 +1,11 @@
 'use client';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { NavBar } from 'components/navbar/navbar';
 import '../globalicons.css';
+import './about.css';
 import Image from 'next/image';
 import Link from 'next/link';
+import Marquee from 'react-fast-marquee';
 
 export default function AboutMe() {
   return (
@@ -11,6 +13,7 @@ export default function AboutMe() {
       <div>
         <Box>
           <Stack
+            id="mainBack"
             style={{
               backgroundImage: "url('/white.jpg')",
               backgroundSize: 'cover',
@@ -185,6 +188,7 @@ export default function AboutMe() {
                 </Stack>
               </Stack>
               <Stack
+                id="highProfile"
                 style={{ display: 'flex', position: 'relative', height: '100%', width: '50%' }}
               >
                 <Image
@@ -197,6 +201,20 @@ export default function AboutMe() {
                 ></Image>
               </Stack>
             </Stack>
+          </Stack>
+          <Stack id="alternate">
+            <Marquee speed={30} gradient={false}>
+              <Typography variant="h4" id="Error">
+                Error Generating Results
+              </Typography>
+            </Marquee>
+            <Typography variant="h4" id="smallError">
+              Error Generating Results
+            </Typography>
+            <Typography variant="h6" id="message">
+              Please forgive us. It hasn&apos;t been programmed to work on mobile phones, therefore,
+              may cause crashes
+            </Typography>
           </Stack>
         </Box>
       </div>

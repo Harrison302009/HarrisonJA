@@ -355,10 +355,24 @@
   #backVid {
     display: none;
   }
+  #introductionBody {
+    display: none;
+  }
+  #text {
+    display: flex;
+    position: relative;
+    width: 100%;
+  }
+  #highProfile {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
   #backVid {
+    display: none;
+  }
+  #introductionBody {
     display: none;
   }
 }

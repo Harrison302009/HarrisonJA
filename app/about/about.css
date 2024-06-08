@@ -1,0 +1,48 @@
+#alternate {
+  display: none;
+  background-image: url('/about-wall.jpg');
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+}
+#Error {
+  display: flex;
+  position: relative;
+  color: red;
+}
+#smallError {
+  display: flex;
+  position: relative;
+  color: red;
+}
+@media (max-width: 768px) {
+  #mainBack {
+    display: none;
+  }
+  #alternate {
+    display: flex;
+  }
+  #Error {
+    display: flex;
+  }
+  #smallError {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  #alternate {
+    display: flex;
+  }
+  #mainBack {
+    display: none;
+  }
+  #Error {
+    display: none;
+  }
+  #smallError {
+    display: flex;
+  }
+}
