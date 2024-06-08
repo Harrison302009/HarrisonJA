@@ -213,7 +213,7 @@ export default function AboutMe() {
             </Typography>
             <Typography variant="h6" id="message">
               Please forgive us. It hasn&apos;t been programmed to work on mobile phones, therefore,
-              may cause crashes
+              may cause crashes.We&apos;ll try to sort it out as soon as possible &#x1F600;
             </Typography>
           </Stack>
         </Box>
