@@ -3,6 +3,12 @@ import { Box, Stack } from '@mui/material';
 import { NavBar } from 'components/navbar/navbar';
 
 export default function HomePage() {
+  const preventSight = () => {
+    var backSight = document.getElementById('backVid') as HTMLVideoElement;
+    backSight.addEventListener('contextmenu', (e) => {
+      e.preventDefault();
+    });
+  };
   return (
     <body>
       <div>
@@ -16,7 +22,13 @@ export default function HomePage() {
             }}
           >
             <NavBar />
-            <video src="/Cutedge.mp4" id="backVid" autoPlay muted></video>
+            <video
+              src="/Cutedge.mp4"
+              id="backVid"
+              autoPlay
+              muted
+              onMouseOver={preventSight}
+            ></video>
           </Stack>
         </Box>
       </div>

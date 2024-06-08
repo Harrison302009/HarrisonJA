@@ -123,11 +123,62 @@ export default function AboutMe() {
                       poem from the book. Of course, she was impressed, though she didn&apos;t show
                       it immediately. She called me later on and encouraged me to continue like that
                       in all my subjects. Unfortunately, at the end of that session, I dropped from
-                      2<sup>nd</sup> position to 3<sup>rd</sup>. I didn&apos;t understand it at all.
-                      I was really disappointed in myself and I was sure that a lot of people were
-                      as well. I didn&apos;t understand it at all. In Nursery 2, it was handwriting
-                      that caused it, but I couldn&apos;t understand what caused it in my 1
-                      <sup>st</sup> grade.
+                      2<sup>nd</sup> position to 3<sup>rd</sup>. I couldn&apos;t comprehend it at
+                      the time, and the disappointment weighed heavily on me. Determined not to
+                      repeat that performance, I made a promise to myself: I would never settle for
+                      mediocrity again. As I entered first grade, I worked tirelessly, striving to
+                      understand what had caused my setback. Despite my efforts, the mystery
+                      remained unsolved. By second grade, I emerged with the title of &quot;Best in
+                      ICT&quot; (Information and Communication Technology) and secured the second
+                      position. It was a satisfying achievement, but I knew I couldn&apos;t rest
+                      there. My goal was clear—I had to claim the top spot. Third grade became my
+                      battleground. I burned the midnight oil, studying until 11 p.m., practicing
+                      math diligently after school, and pushing my limits. Finally, the moment
+                      arrived: I clinched the coveted title of “Best in ICT,” excelled in
+                      Mathematics, topped the Science category and won the ultimate reward-First
+                      place overall. That night, excitement bubbled within me. I had reclaimed my
+                      position, proving that hard work and determination could rewrite my story. My
+                      fourth-grade year remains etched in my memory as one of the most remarkable
+                      periods of my life. Prior to that, during my first, second, and third grades,
+                      I consistently secured the first overall position. However, despite my
+                      achievements, I often felt that I deserved more recognition than I received.
+                      Perhaps my confidence was a tad inflated. Everything changed in fourth grade.
+                      To my surprise, I received a plethora of awards. Some of them still stand out
+                      vividly: <b>&quot;Most Regular&quot;</b>, <b>&quot;Neatest Student&quot;</b>,{' '}
+                      <b>&quot;Best in Science&quot;</b>, <b>&quot;Best in Mathematics&quot;</b>,{' '}
+                      <b>&quot;Best in ICT&quot;</b>, <b>&quot;Best Behaved&quot;</b>, and, of
+                      course, the coveted <b>&quot;1st Overall Position&quot;</b>. The excitement
+                      was overwhelming—I had never won so many prizes before. Yet, amidst the
+                      celebration, I discovered an unsettling truth. Most teachers didn&apos;t
+                      allocate prizes solely based on merit. Instead, they distributed a few to the
+                      top-performing student and divided the rest among others to ensure everyone
+                      received something. It was a well-intentioned but flawed approach. However,
+                      there was one exception: Mr. Francis Fazili, my fourth-grade teacher. Hailing
+                      from the Federal Republic of Congo, he stood apart from his colleagues. He
+                      refused to compromise on honesty. Unlike the rest, he awarded prizes to those
+                      who genuinely deserved them. His unwavering commitment to fairness left a
+                      lasting impression on me. Being too honest and always doing the right thing
+                      can sometimes be a major disadvantage. This was the case for Mr. Fazili, a
+                      teacher at our school. His unwavering commitment to honesty led to his
+                      downfall, as he became disliked by some of his colleagues. I first suspected
+                      something was amiss when Mr. Fazili didn&apos;t introduce himself to the new
+                      students during the next term after my fourth grade. Later, I witnessed him
+                      leaving the school premises, an unusual sight. Curious, I approached Mr.
+                      Afolabi, the third grade teacher, who hesitated before revealing the truth:
+                      Mr. Fazili had been fired. The real story emerged when I discussed it with my
+                      mother. Apparently, the headmaster, Mr. Femi, harbored a deep resentment
+                      toward Mr. Fazili. The reason? Mr. Fazili believed that prizes should be
+                      awarded to deserving students during prize-giving ceremonies. The headmaster
+                      disagreed, and this disagreement festered over time. Unfortunately, Mr.
+                      Fazili&apos;s punctuality suffered due to floods and traffic during that
+                      particular year. Seizing the opportunity, the headmaster reported this to the
+                      school&apos;s proprietress, arguing that a teacher who consistently arrived
+                      late couldn&apos;t be effective. After persistent efforts, the proprietress
+                      decided to terminate Mr. Fazili&apos;s employment. The next day, he received
+                      the dreaded sack letter and was asked to leave the school. I was furious upon
+                      learning the truth. How could someone lose their job simply for being honest?
+                      Although I kept my feelings to myself, my opinion of the headmaster changed
+                      forever.
                     </p>
                     <br />
                   </Stack>
