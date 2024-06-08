@@ -246,7 +246,15 @@
   align-items: center;
   justify-content: center;
 }
-#introduction {
+#introductionBody {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#introductionSlider {
   background: linear-gradient(
     -217deg,
     gray 0%,

@@ -25,6 +25,21 @@ export function NavBar() {
       displayUnit.style.animation = 'dis 1s';
     }, 600);
   };
+  const GoThroughAnotherMeans = () => {
+    var displayUnit = document.getElementById('outputShown') as HTMLDivElement;
+    var shine = document.getElementById('grayHidden') as HTMLDivElement;
+    shine.addEventListener('click', (e: any) => {
+      if (e.target.id === 'grayHidden') {
+        displayUnit.style.animation = 'alix 0.6s linear';
+        setTimeout(() => {
+          shine.style.display = 'none';
+          displayUnit.style.animation = 'dis 1s';
+        }, 600);
+      } else {
+        displayUnit.style.animation = '';
+      }
+    });
+  };
   const linkProfile = () => {
     window.location.href = 'https://www.linkedin.com/in/harrison-john-anozie-6766a7298';
   };
@@ -55,7 +70,7 @@ export function NavBar() {
           <FontAwesomeIcon icon={faDiscord} onClick={discordServer} id="discord" />
         </div>
       </nav>
-      <div id="grayHidden">
+      <div id="grayHidden" onMouseOver={GoThroughAnotherMeans}>
         <div id="outputShown" className="outputShown">
           <FontAwesomeIcon icon={faX} id="times" onClick={notInterested} />
           <br />

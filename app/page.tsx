@@ -30,9 +30,9 @@ export default function HomePage() {
               muted
               onMouseOver={preventSight}
             ></video>
-            <Stack>
+            <Stack id="introductionBody">
               <Marquee speed={50} gradient={false} direction="left">
-                <Typography variant="h1" id="introduction">
+                <Typography variant="h1" id="introductionSlider">
                   Harrison John-Anozie
                 </Typography>
               </Marquee>
