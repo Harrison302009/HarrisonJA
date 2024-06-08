@@ -1,6 +1,7 @@
 'use client';
-import { Box, Stack } from '@mui/material';
+import { Box, Stack, Typography } from '@mui/material';
 import { NavBar } from 'components/navbar/navbar';
+import Marquee from 'react-fast-marquee';
 
 export default function HomePage() {
   const preventSight = () => {
@@ -29,6 +30,13 @@ export default function HomePage() {
               muted
               onMouseOver={preventSight}
             ></video>
+            <Stack>
+              <Marquee speed={50} gradient={false} direction="left">
+                <Typography variant="h1" id="introduction">
+                  Harrison John-Anozie
+                </Typography>
+              </Marquee>
+            </Stack>
           </Stack>
         </Box>
       </div>

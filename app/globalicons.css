@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&family=Pangolin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 #nav {
   display: flex;
@@ -199,9 +200,10 @@
 
 #times {
   display: flex;
-  position: absolute;
+  position: fixed;
   float: right;
   z-index: 59;
+  right: auto;
   color: black;
   cursor: pointer;
 }
@@ -243,6 +245,27 @@
   height: 100%;
   align-items: center;
   justify-content: center;
+}
+#introduction {
+  background: linear-gradient(
+    -217deg,
+    gray 0%,
+    peru 15%,
+    pink 25%,
+    saddlebrown 39%,
+    black 50%,
+    dodgerblue 75%,
+    green 91%,
+    gold 100%
+  );
+  background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  font-family: 'Josefin Sans', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  animation: flirt 1s infinite linear;
 }
 
 #text {
@@ -309,5 +332,25 @@
   to {
     transform: rotate(360deg);
     opacity: 0;
+  }
+}
+@keyframes flirt {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (max-width: 425px) {
+  #icons {
+    display: none;
+  }
+  #backVid {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #backVid {
+    display: none;
   }
 }
