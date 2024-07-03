@@ -40,9 +40,6 @@ export function NavBar() {
       }
     });
   };
-  const linkProfile = () => {
-    window.location.href = 'https://www.linkedin.com/in/harrison-john-anozie-6766a7298';
-  };
   return (
     <Stack>
       <nav id="nav">
@@ -65,7 +62,9 @@ export function NavBar() {
         <div id="icons">
           <FontAwesomeIcon icon={faInstagram} id="ig" />
           <FontAwesomeIcon icon={faFacebook} id="fb" />
-          <FontAwesomeIcon icon={faLinkedin} id="ld" onClick={linkProfile} />
+          <Link href={'https://www.linkedin.com/in/harrison-john-anozie-6766a7298'} target="_blank">
+            <FontAwesomeIcon icon={faLinkedin} id="ld" />
+          </Link>
           <FontAwesomeIcon icon={faXTwitter} id="tweet" />
           <FontAwesomeIcon icon={faDiscord} onClick={discordServer} id="discord" />
         </div>
@@ -77,7 +76,7 @@ export function NavBar() {
           <div id="inmates">
             <FontAwesomeIcon icon={faDiscord} id="bigDiscord" />
             <h2 id="joinTi">Join our server and explore the community</h2>
-            <Link href={'https://discord.gg/Bq4VEV3G'} target="_blank">
+            <Link href={'https://discord.gg/3Wk9YgK7'} target="_blank">
               <Button variant="contained" id="acceptedInvite">
                 JOIN NOW!
               </Button>
