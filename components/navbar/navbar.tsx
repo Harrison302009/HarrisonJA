@@ -76,11 +76,14 @@ export function NavBar() {
           <div id="inmates">
             <FontAwesomeIcon icon={faDiscord} id="bigDiscord" />
             <h2 id="joinTi">Join our server and explore the community</h2>
-            <Link href={'https://discord.gg/3Wk9YgK7'} target="_blank">
-              <Button variant="contained" id="acceptedInvite">
-                JOIN NOW!
-              </Button>
-            </Link>
+            <Button
+              variant="contained"
+              id="acceptedInvite"
+              target="_blank"
+              href="https://discord.gg/ZCr75WVW"
+            >
+              JOIN NOW!
+            </Button>
           </div>
         </div>
       </div>
