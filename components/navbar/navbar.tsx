@@ -123,6 +123,7 @@ export function NavBar() {
             <Image
               src={'/profile.jpg'}
               alt="Profile"
+              id="linkedInProfile"
               height={200}
               width={200}
               style={{
